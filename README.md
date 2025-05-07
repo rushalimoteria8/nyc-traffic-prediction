@@ -9,6 +9,8 @@ This project presents a scalable data processing and prediction framework to ana
 
 ### ✅ A. If using Google Colab (Recommended)
 
+> Note: On some Google Colab sessions, basic Spark operations may work without full setup. However, to ensure compatibility with PySpark MLlib and cross-validation features, the full Spark environment setup is included below and recommended for all users.
+
 Google Colab supports PySpark with minor setup. Use the following commands at the beginning of your notebook to configure Spark:
 
 ```python
@@ -67,6 +69,14 @@ export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
 export SPARK_HOME=/path/to/spark
 ```
 Add `$SPARK_HOME/bin` to your system path if using terminal or VSCode.
+
+Include the following after setting up `JAVA_HOME` and `SPARK_HOME`:
+```python
+# (Optional) Increase Spark driver memory for local runs
+export PYSPARK_SUBMIT_ARGS="--driver-memory 6g pyspark-shell"
+```
+
+> For local execution, it's recommended to allocate more memory to the Spark driver (e.g., 6 GB) using the `PYSPARK_SUBMIT_ARGS` environment variable to avoid crashing on large operations.
 
 ---
 
