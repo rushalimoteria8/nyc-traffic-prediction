@@ -84,7 +84,7 @@ export PYSPARK_SUBMIT_ARGS="--driver-memory 6g pyspark-shell"
 
 **Notebook:** `Traffic_Flow_Analysis_Spark.ipynb`
 
-This notebook contains the entire pipeline, divided into the following steps:
+This notebook contains the entire pipeline, and below is the high level code logic:
 
 **A. Data Ingestion**
 - Connects to NYC Open Data API.
