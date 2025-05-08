@@ -149,7 +149,11 @@ This notebook contains the entire pipeline, and below is the high level code log
 
 This project demonstrates how big data technologies and machine learning can be combined to understand and predict urban traffic patterns at scale. By using PySpark, time-series forecasting, and predictive modeling, this framework can serve as a foundation for smarter traffic monitoring systems and future congestion management solutions.
 
+## Authors
 
+- Rushali Moteria
+- Riya Shah
+- Rujuta Joshi
 
 
 
