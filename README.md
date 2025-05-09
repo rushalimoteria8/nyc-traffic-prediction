@@ -122,6 +122,10 @@ This notebook contains the entire pipeline, and below is the high level code log
 - Analyzes model performance visually and statistically.
 - Performs live inference using a sample input (e.g., weekday + hour for a borough and direction).
 
+### Power BI Traffic Forecasting Dashboard
+
+![image](https://github.com/user-attachments/assets/756dff23-6c0c-4d3e-867a-03fa3b2ec640)
+
 ### How to Run the Code
 
 ✅ In Google Colab:
